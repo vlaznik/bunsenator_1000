@@ -7,6 +7,10 @@ class QuotesController < ApplicationController
     @quotes = Quote.all
   end
 
+  def bunsenator
+    @quotes = Quote.all
+  end
+
   # GET /quotes/1
   # GET /quotes/1.json
   def show
