@@ -21,11 +21,28 @@ body {
   top: 15vw;
   /*text-align: center;*/
   font-family: "Playball", cursive;
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: bold;
   line-height: 1;
 }
 
 p {
   text-align: center;
+}
+
+h1 {
+  position: relative;
+  top: 5vw;
+  text-align: center;
+  font-family: "Playball", cursive;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+h1 a:visited {
+  color: black;
+  }
+
+h1 a:hover {
+  color: grey;
 }
