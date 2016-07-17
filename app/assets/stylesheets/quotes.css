@@ -2,15 +2,30 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-#face {
-  background-image: url("AustonBunsen.jpg");
-  background-repeat: no-repeat;
-  background-position: left;
-  /*background-size: cover;*/
+body {
+  height: 100vw;
+  background-image: url("wood_floor.jpg");
+  background-size: cover;
+}
+
+#face img{
+  /*position: absolute; z-index: -1;*/
+  display: block;
+  margin: 0 auto;
+  border: 5px solid black;
+  max-width: 100%;
 }
 
 #bunsenism {
-  text-align: center;
-  border: 2px solid red;
+  position: relative;
+  top: 15vw;
+  /*text-align: center;*/
+  font-family: "Playball", cursive;
+  font-size: 4em;
+  font-weight: bold;
+  line-height: 1;
+}
 
+p {
+  text-align: center;
 }
