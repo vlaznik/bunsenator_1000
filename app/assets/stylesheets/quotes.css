@@ -2,3 +2,15 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+#face {
+  background-image: url("AustonBunsen.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  /*background-size: cover;*/
+}
+
+#bunsenism {
+  text-align: center;
+  border: 2px solid red;
+
+}
