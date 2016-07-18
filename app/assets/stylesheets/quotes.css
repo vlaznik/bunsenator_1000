@@ -48,5 +48,6 @@ h1 a:hover {
 }
 
 #font_color {
-  color: white
+  color: black;
+  font-weight: bold;
 }
