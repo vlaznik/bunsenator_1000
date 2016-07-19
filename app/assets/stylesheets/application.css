@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   height: 100vw;
+   background-image: url("wood_floor.jpg");
+   background-size: cover;
+ }
